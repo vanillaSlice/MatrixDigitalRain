@@ -4,7 +4,7 @@ function setup() {
   createCanvas(innerWidth, innerHeight);
   textFont('monospace', 16);
   colorMode(HSL);
-  streams = new Streams();
+  streams = Streams();
 }
 
 function draw() {
@@ -21,7 +21,7 @@ function Streams() {
     const y = round(random(-1000, 0));
     const speed = round(random(3, 7));
     const length = round(random(10, 50));
-    const stream = new Stream(x, y, speed, length);
+    const stream = Stream(x, y, speed, length);
     streams.push(stream);
   }
 
@@ -51,7 +51,7 @@ function Stream(x, y, speed, length) {
       lightness = (1 - (i / length)) * 50;
     }
     const colour = [120, 100, lightness];
-    const symbol = new Symbol(x, y, speed, changeRate, colour);
+    const symbol = Symbol(x, y, speed, changeRate, colour);
     symbols.push(symbol);
     y -= textSize();
   }
@@ -84,5 +84,5 @@ function Symbol(x, y, speed, changeRate, colour) {
 
 function windowResized() {
   resizeCanvas(innerWidth, innerHeight);
-  streams = new Streams();
+  streams = Streams();
 }
