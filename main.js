@@ -20,7 +20,7 @@ function Streams() {
     const x = i * textSize();
     const y = round(random(-1000, 0));
     const speed = round(random(3, 7));
-    const length = round(random(10, 50));
+    const length = round(random(1, innerHeight / textSize()));
     const stream = Stream(x, y, speed, length);
     streams.push(stream);
   }
