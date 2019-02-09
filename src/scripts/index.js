@@ -41,7 +41,7 @@ class Stream {
         x,
         y: y - (textSize() * i),
         speed,
-        changeRate: randomInt(20, 40),
+        changeRate: randomInt(100, 400),
         colour: [120, 100, baseLightness * lightnessMultiplier],
       });
 
