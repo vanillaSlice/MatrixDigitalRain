@@ -8,7 +8,7 @@ Digital rain effect from The Matrix written using [p5.js](https://p5js.org/).
 
 ![Preview](/images/preview-1.gif)
 
-A deployed version can be viewed [here](https://vanillaslice.github.io/MatrixDigitalRain/).
+A deployed version can be viewed [here](http://matrixdigitalrain.mikelowe.xyz/).
 
 ## Screenshot
 
