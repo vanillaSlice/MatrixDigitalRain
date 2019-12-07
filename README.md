@@ -1,7 +1,7 @@
 # Matrix Digital Rain
 
 [![Latest Release](https://img.shields.io/github/release/vanillaSlice/MatrixDigitalRain.svg)](https://github.com/vanillaSlice/MatrixDigitalRain/releases/latest)
-[![Build Status](https://img.shields.io/travis/vanillaSlice/MatrixDigitalRain/master.svg)](https://travis-ci.org/vanillaSlice/MatrixDigitalRain)
+[![Build Status](https://img.shields.io/travis/com/vanillaSlice/MatrixDigitalRain/master.svg)](https://travis-ci.com/vanillaSlice/MatrixDigitalRain)
 [![License](https://img.shields.io/github/license/vanillaSlice/MatrixDigitalRain.svg)](LICENSE)
 
 Digital rain effect from The Matrix written using [p5.js](https://p5js.org/).
