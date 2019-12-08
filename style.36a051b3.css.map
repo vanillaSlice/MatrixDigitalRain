@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,KACE,eAAiB,CAEjB,eACF,CAEA,UAJE,WAOF,CAHA,KACE,QAEF","file":"style.36a051b3.css","sourceRoot":"../src","sourcesContent":["html {\n  background: black;\n  height: 100%;\n  overflow: hidden;\n}\n\nbody {\n  margin: 0;\n  height: 100%;\n}\n"]}
