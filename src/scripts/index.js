@@ -50,7 +50,7 @@ class Stream {
   }
 
   draw() {
-    this.symbols.forEach(symbol => symbol.draw());
+    this.symbols.forEach((symbol) => symbol.draw());
   }
 }
 
@@ -71,7 +71,7 @@ class Streams {
   }
 
   draw() {
-    this.streams.forEach(stream => stream.draw());
+    this.streams.forEach((stream) => stream.draw());
   }
 }
 
